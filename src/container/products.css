@@ -1,0 +1,220 @@
+.components {
+    position: relative;
+    margin: 4% 2% 3% 6%;
+    padding: 1%;
+    height: 250px;
+    background-color: #ee29ac;
+    width: 22.2%;
+    border-radius: 20px;
+
+}
+
+.totControl {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.content {
+    position: absolute;
+    bottom: 0px;
+    list-style: none;
+    padding: -1%;
+    margin-left: 16%;
+    margin-bottom: 5%;
+}
+
+.title {
+    border-radius: 2px;
+    border: #9d52f3;
+    color: #ffffff;
+    font-family: 'Times New Roman', Times, serif;
+    font-size-adjust: 0.60;
+    border-radius: 20px;
+    padding: 2.5% 10% 2.5% 10%;
+}
+
+.modify {
+    display: flex;
+    margin-right: 2%;
+}
+
+.view-btn {
+    background-color: #5e69ff;
+    color: #ffffff;
+    padding: 2.5% 30% 2.5% 30%;
+    border-radius: 6px;
+    border: none;
+    font-size: medium;
+    margin-right: 0%;
+    margin-left: 0%;
+    cursor: pointer;
+    /* margin-top: 0%; */
+
+}
+
+.align {
+    padding: 2%;
+}
+
+.css-i4bv87-MuiSvgIcon-root {
+    cursor: pointer;
+    margin-right: 0%;
+}
+
+.viewForm {
+    width: 120%;
+    padding: 3% 5.5% 3% 2%;
+    margin-top: 6%;
+    border-radius: 10px;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    background-color: rgb(240, 134, 166);
+    top: 45%;
+    left: 50%;
+    color: #050505;
+}
+.priceupdate{
+    width: 181px;
+    height: 24px;
+    margin-left: 0%;
+
+  }
+
+
+.images {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    border: solid #ffffff;
+
+}
+
+.closeview {
+    margin-left: 47%;
+}
+
+.closeview {
+    background-color: rgb(245, 247, 248);
+    font-size-adjust: 0.80;
+    border: none;
+    cursor: pointer;
+    margin-left: 57%;
+}
+
+@media only screen and (max-width: 400px) {
+    .totControl {
+        margin-left: -3%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+
+    /* For mobile phones: */
+    .modify {
+        margin-top: 50%;
+    }
+
+    .viewForm {
+        width: 130%;
+        height: 0;
+        margin-top: 12%;
+    }
+
+    .images {
+        width: 75px;
+        height: 50px;
+        display: flex;
+        border: solid #ffffff;
+
+    }
+
+    .components {
+        margin: 40.5px;
+        margin-left: 22%;
+        margin-right: 30%;
+        padding: 5.5%;
+        width: 800%;
+        height: 180px;
+    }
+
+    .css-i4bv87-MuiSvgIcon-root {
+        margin-right: 1%;
+    }
+
+    .view-btn {
+        background-color: #5e69ff;
+        color: #ffffff;
+        /* padding: 2% 20% 2% 20%; */
+        border-radius: 6px;
+        border: none;
+        margin-right: 10%;
+        cursor: pointer;
+    }
+
+    .title {
+        border-radius: 0px;
+        padding: 0%;
+        background-color: hsl(hue, saturation, lightness);
+        font-size-adjust: none;
+    }
+
+    .content {
+        margin-bottom: 15%;
+        margin-left: 3%;
+    }
+
+    .css-i4bv87-MuiSvgIcon-root {
+        margin-right: 15%;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+
+    /* For mobile phones: */
+    .images {
+        width: 95px;
+        height: 95px;
+        display: flex;
+        border: solid #ffffff;
+
+    }
+
+    .css-i4bv87-MuiSvgIcon-root {
+        margin-right: 20%;
+    }
+
+    .view-btn {
+        background-color: #5e69ff;
+        color: #ffffff;
+        /* padding: 2% 20% 2% 20%; */
+        border-radius: 6px;
+        border: none;
+        margin-right: 40%;
+        cursor: pointer;
+    }
+
+    .modify {
+        margin-right: 72%;
+        margin-left: -15%;
+    }
+    .modify {
+        margin-right: 88%;
+        margin-left: -6%;
+    }
+
+}
+
+@media only screen and (min-width: 992px) {
+    .modify {
+        margin-right: 40%;
+        margin-left: 20%;
+    }
+}
+@media only screen and (min-width: 1450px){
+    .components{
+      width: 12%;
+      margin: 3%;
+    }
+    
+  }
